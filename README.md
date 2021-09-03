@@ -1,5 +1,7 @@
 # learning_rails_in_docker
 
+<!-- docker exec -it eposcomp_app_1 bash -c "rake db:create && rake db:migrate && rake db:seed" -->
+
 This is literally a very simple implementation of rails on docker following a recipe from [THIS AWESOME REPO](https://github.com/alpinelab/docker-ruby-dev). 
 
 ## 🚀 Getting started
