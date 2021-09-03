@@ -9,6 +9,7 @@ This is literally a very simple implementation of rails on docker following a re
 You need to have: 
 
 ✔️ docker
+
 ✔️ docker-compose
 
 installed and its recommended that you know how to use them.
