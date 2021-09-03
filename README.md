@@ -1,24 +1,44 @@
-# README
+# learning_rails_in_docker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is literally a very simple implementation of rails on docker following a recipe from [THIS AWESOME REPO](https://github.com/alpinelab/docker-ruby-dev). 
 
-Things you may want to cover:
+## 🚀 Getting started
 
-* Ruby version
+### 1. Dependencies:
 
-* System dependencies
+You need to have: 
 
-* Configuration
+✔️ docker
+✔️ docker-compose
 
-* Database creation
+installed and its recommended that you know how to use them.
 
-* Database initialization
+### 2. Clone the repo:
 
-* How to run the test suite
+```
+git clone https://github.com/Alexandre-Caldeira/learning_rails_in_docker.git
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+### 3. Compose up and start working:
 
-* Deployment instructions
+- Get inside the repo folder:
 
-* ...
+```
+cd learning_rails_in_docker
+```
+
+- Build the app:
+
+```
+docker-compose up --build app
+```
+
+- Run it:
+
+```
+docker-compose up app
+```
+
+
+# ⏭️ Next step:
+- Making it work with webpack following the original dev's recipes together with a PostgresSQL database container
